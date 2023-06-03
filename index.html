@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<meta charset="utf-8">
+	<title>	</title>
+	<style type="text/css">
+		.sphere {
+			background: transparent;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			border-radius: 100px;
+			transition: all 0.8s ease-out;
+			top: -100px;
+		}
+		.ground {
+			background: green;
+			position: absolute;
+			width: 1900px;
+			height: 70px;
+			top: 900px;
+		}
+		.och {
+			font-size: 23px;
+			font-family: fantasy;
+			
+		}
+	</style>
+</head>
+<body class="body" style="background-image: url(menu.jpg);background-size: cover">
+
+	<div class="menu">
+		<div class="stolovka">
+			<img src="stolovka.png" alt="" style="position:absolute; top: 550px; left:800px; height:200px">
+		</div>
+		<div  class="pe"> 
+			<img src="pe.png" alt="" style="position:absolute; top: 480px; left:1150px; height:120px">
+		</div>
+		
+		</div>
+	</div>
+	<img src="player.png" alt="" class="main_player" style="position:absolute; top: 800px; left: 600px; transition: 2s;">
+	<div class="kitch" style="display: none;background-image: url(stol.jpg); height: 1000px; width:1800px">
+		<div class="och" style="position:absolute; height: 30px; width:60px; background-color: yellow;"></div>
+	</div>
+	
+	
+
+
+    <div class="col-8 mx-auto text-center mt-5 location3" style="display:none;">
+        <h1 class="info">я хожу</h1>
+        <div class="row  py-5">
+            <div class="col-6 py-5">
+                <h1>Игрок 1</h1>
+                <div class="choice-player-1">
+
+                </div>
+                <p>Камень (серый) - A</p>
+                <p>Ножницы (оранжевый)- S</p>
+                <p>Бумага (белый)- D</p>
+            </div>
+            <div class="col-6 py-5">
+                <h1>Игрок 2</h1>
+                <div class="choice-player-2">
+                </div>
+                <p>Камень (серый)- J</p>
+                <p>Ножницы (оранжевый)- K</p>
+                <p>Бумага (белый)- L</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row location4" style="display: none;">
+    </div>
+    
+</div>
+	
+</div>
+<script src="script1.js"></script>
+</body>
+</html>
